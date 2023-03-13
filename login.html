@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Page</title>
+    <link href="/css/main.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Responsive navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark fixed-top">
+        <div class="container">
+            <a href="index.html" class="navbar-logo text-secondary">Hidden Gems</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navtab">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navtab">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item text-secondary">
+                        <a href="about.html" class="nav-link">About us</a>
+                    </li>
+
+                    <li class="nav-item text-secondary">
+                        <a href="submit.html" class="nav-link">Submit a gem</a>
+                    </li>
+
+                    <li class="nav-item text-secondary">
+                        <a href="contact.html" class="nav-link">Contact us</a>
+                    </li>
+
+                    <li class="nav-item text-secondary">
+                        <a href="login.html" class="nav-link">Log In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="bg-secondary text-dark p-5 text-center">
+        <div class="container">
+            <div w-100 h-100>
+                <h1><span class="text-success text-center">HELLO AGAIN!</span></h1>
+            </div>
+        </div>
+    </section>
+
+  
+    
+    <section class="p-5 bg-success text-light vh-75">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                    <form class="needs-validation my-1">
+                        <div class="form-group was-validated">
+                            <label class= "form-label" for="email">Email Address</label>
+                            <input class = "form-control" type="email" id="email">
+                            <div class="invalid-feedback">Please enter your email address</div>
+                        </div>
+
+                        <div class="form-group was-validated my-1">
+                            <label class= "form-label" for="password">Password</label>
+                            <input class = "form-control" type="password" id="password">
+                            <div class="invalid-feedback">Please enter your password</div>
+                        </div>
+
+                        <div class="form-group my-1">
+                            <input class = "form-check-input" type="checkbox" id="check">
+                            <label class= "form-check-label" for="check">Remember Me</label>
+                        </div>
+
+                        <a class="btn btn-success btn-lg my-5" href="index.html">Sign In</a>
+                    </form>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="bg-secondary text-dark p-5 text-center">
+        <div class="container">
+            <div>
+                <h1><span class="text-success text-center">Are You A First-Timer? Let's Get You Registered Right Away!</span></h1>
+            </div>
+            <div>
+                <a class="btn btn-success btn-lg my-5" href="register.html">Register Now</a>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
