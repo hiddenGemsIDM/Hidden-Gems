@@ -10818,4 +10818,32 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+* {
+  font-family: "Poppins", Georgia, serif;
+}
+
+.intro {
+  margin-top: 50px;
+}
+
+.intro h1, .intro .h1 {
+  margin-bottom: 25px;
+}
+
+.intro .card {
+  border-radius: 3px;
+}
+
+.about {
+  margin-top: 50px;
+}
+
+.team h1, .team .h1 {
+  margin-left: 79%;
+  margin-bottom: 50px;
+}
+
+.contact {
+  margin-top: 50px;
 }/*# sourceMappingURL=main.min.css.map */
