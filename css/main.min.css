@@ -10844,6 +10844,10 @@ textarea.form-control-lg {
   margin-bottom: 50px;
 }
 
+.team h5, .team .h5 {
+  font-weight: bold;
+}
+
 .contact {
   margin-top: 50px;
 }
@@ -10859,4 +10863,8 @@ textarea.form-control-lg {
 .form-group {
   margin-left: 25px;
   margin-right: 25px;
+}
+
+.contact .card {
+  border: none;
 }/*# sourceMappingURL=main.min.css.map */
