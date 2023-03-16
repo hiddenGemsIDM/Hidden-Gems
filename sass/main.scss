@@ -53,3 +53,13 @@ $secondary: #FFFAE4;
 .contact .card {
     border: none;
 }
+
+.c-item {
+    height: 520px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;     //For aspect ratio purposes
+    filter: brightness(0.9);
+}
