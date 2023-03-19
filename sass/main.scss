@@ -8,6 +8,7 @@ $secondary: #FFFAE4;
     font-family: "Poppins", Georgia, serif;
 }
 
+/* --------- Landing page --------- */
 .intro {
     margin-top: 50px;
 }
@@ -17,9 +18,21 @@ $secondary: #FFFAE4;
 }
 
 .intro .card {
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
+/* Carrousel */
+.c-item {
+    height: 520px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;     // For aspect ratio purposes
+    filter: brightness(0.9);
+}
+
+/* --------- About page --------- */
 .about {
     margin-top: 50px;
 }
@@ -33,10 +46,7 @@ $secondary: #FFFAE4;
     font-weight: bold;
 }
 
-.contact {
-    margin-top: 50px;
-}
-
+/* --------- Log in/Register page --------- */
 .welcome {
     margin-top: 50px;
 }
@@ -46,20 +56,28 @@ $secondary: #FFFAE4;
 }
 
 .form-group {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* --------- Contact page --------- */
+.contact {
+    margin-top: 100px;
 }
 
 .contact .card {
     border: none;
 }
 
-.c-item {
-    height: 520px;
+.contact input {
+    background-color: #FFFAE4;
 }
 
-.c-img {
-    height: 100%;
-    object-fit: cover;     //For aspect ratio purposes
-    filter: brightness(0.9);
+.contact .msg {
+    height: 150px;
+}
+
+/* --------- Submit page --------- */
+.submit {
+    margin-top: 50px;
 }
