@@ -12,7 +12,9 @@
     <!-- Responsive navigation bar -->
     <nav class="navbar navbar-expand-lg bg-success navbar-dark fixed-top">
         <div class="container">
-            <a href="index.html" class="navbar-logo text-secondary">Hidden Gems</a>
+            <a href="index.html" class="navbar-logo text-secondary">
+                <img src="img/BeigeLogo-cropped.png" alt="Hidden Gems logo" class="img-fluid">
+            </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navtab">
                 <span class="navbar-toggler-icon"></span>
@@ -51,7 +53,7 @@
         </div>
     </section>
 
-    <section class="bg-success text-light text-center p-4">
+    <section class="submit-form bg-success text-light text-center p-4">
         <div class="form-group">
             <div class="row">
                 <div class="col-md-6 my-3">
@@ -79,15 +81,17 @@
         </div>
 
         <div class="form-group my-4">
-            <input type="text" name="description" class="form-control"
-                placeholder="Description (max. 500 words)" />
-        </div>
-        <div class="form-group my-4">
             <input type="text" name="keywords" class="form-control" placeholder="Keywords" />
         </div>
+
         <div class="form-group my-4">
             <input type="text" name="sentence" class="form-control"
                 placeholder="One sentence to sum up why people will love this Hidden Gem..." />
+        </div>
+
+        <div class="form-group my-4">
+            <input type="text" name="description" class="form-control description"
+                placeholder="Description (max. 500 words)" />
         </div>
 
     </section>

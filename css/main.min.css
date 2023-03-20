@@ -10823,6 +10823,18 @@ textarea.form-control-lg {
   font-family: "Poppins", Georgia, serif;
 }
 
+/* --------- Navbar --------- */
+.navbar img {
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.navbar img:hover {
+  transform: scale(1.05);
+}
+
 /* --------- Landing page --------- */
 .intro {
   margin-top: 50px;
@@ -10896,4 +10908,8 @@ textarea.form-control-lg {
 /* --------- Submit page --------- */
 .submit {
   margin-top: 50px;
+}
+
+.submit-form .description {
+  height: 150px;
 }/*# sourceMappingURL=main.min.css.map */

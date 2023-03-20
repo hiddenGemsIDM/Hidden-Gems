@@ -8,6 +8,17 @@ $secondary: #FFFAE4;
     font-family: "Poppins", Georgia, serif;
 }
 
+/* --------- Navbar --------- */
+.navbar img {
+    height: 30px;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.navbar img:hover {
+    transform: scale(1.05);
+}
+
 /* --------- Landing page --------- */
 .intro {
     margin-top: 50px;
@@ -80,4 +91,8 @@ $secondary: #FFFAE4;
 /* --------- Submit page --------- */
 .submit {
     margin-top: 50px;
+}
+
+.submit-form .description {
+    height: 150px;
 }
