@@ -10924,4 +10924,22 @@ textarea.form-control-lg {
 
 .submit-form .description {
   height: 150px;
+}
+
+/* --------- Hidden gems' pages --------- */
+.hidden-gem .gem-main-photo {
+  position: relative;
+}
+
+.hidden-gem .gem-main-photo img {
+  height: 500px;
+  opacity: 40%;
+}
+
+.hidden-gem .gem-main-photo h1, .hidden-gem .gem-main-photo .h1 {
+  position: absolute;
+  top: 200px;
+  left: 37%;
+  font-size: 50px;
+  z-index: 1000;
 }/*# sourceMappingURL=main.min.css.map */
