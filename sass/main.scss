@@ -1,5 +1,8 @@
+
+
 $success: #196A59;
 $secondary: #FFFAE4;
+$info: #1A271D;
 
 // import bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';
@@ -126,3 +129,28 @@ $secondary: #FFFAE4;
     font-size: 50px;
     z-index: 1000;
 }
+
+/* For the images and items on the photo gallery on landing page */
+
+.c-item {
+    height: 520px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;     //For aspect ratio purposes
+    filter: brightness(0.9);
+}
+
+/* Dropdown on navbar */
+
+ul .dropdown-menu {
+    position: relative;
+    background-color: #196A59;
+    width: 175px;
+}
+
+li .dropdown-item {
+    color: #FFFAE4;
+}
+
