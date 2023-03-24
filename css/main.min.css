@@ -152,6 +152,7 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
+  font-weight: bold;
 }
 
 h6, .h6 {
@@ -7257,6 +7258,7 @@ textarea.form-control-lg {
 
 .w-50 {
   width: 50% !important;
+  border-radius: 15%;
 }
 
 .w-75 {
@@ -7265,6 +7267,7 @@ textarea.form-control-lg {
 
 .w-100 {
   width: 100% !important;
+  max-height: 500px;
 }
 
 .w-auto {
@@ -7739,6 +7742,7 @@ textarea.form-control-lg {
 .px-3 {
   padding-right: 1rem !important;
   padding-left: 1rem !important;
+  max-width: 500px;
 }
 
 .px-4 {
