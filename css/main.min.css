@@ -152,7 +152,6 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
-  font-weight: bold;
 }
 
 h6, .h6 {
@@ -7258,7 +7257,6 @@ textarea.form-control-lg {
 
 .w-50 {
   width: 50% !important;
-  border-radius: 15%;
 }
 
 .w-75 {
@@ -7267,7 +7265,6 @@ textarea.form-control-lg {
 
 .w-100 {
   width: 100% !important;
-  max-height: 500px;
 }
 
 .w-auto {
@@ -7742,7 +7739,6 @@ textarea.form-control-lg {
 .px-3 {
   padding-right: 1rem !important;
   padding-left: 1rem !important;
-  max-width: 500px;
 }
 
 .px-4 {
@@ -10839,14 +10835,27 @@ textarea.form-control-lg {
   transform: scale(1.05);
 }
 
-/* --------- Footer --------- */
-.footer a {
-  text-decoration: none;
-  transition: all 0.3s ease;
+/* Dropdown on navbar */
+.navbar ul .dropdown-menu {
+  position: relative;
+  background-color: #196A59;
+  width: 175px;
 }
 
-.footer a:hover {
-  text-decoration: underline;
+.navbar li .dropdown-item {
+  color: #FFFAE4;
+}
+
+.navbar h5 span, .navbar .h5 span {
+  background-color: white;
+}
+
+.navbar p span {
+  background-color: white;
+}
+
+.navbar a {
+  color: sucess;
 }
 
 /* --------- Landing page --------- */
@@ -10862,7 +10871,7 @@ textarea.form-control-lg {
   border-radius: 10px;
 }
 
-/* Carrousel */
+/* For the images and items on the photo gallery on landing page */
 .c-item {
   height: 520px;
 }
@@ -10872,6 +10881,30 @@ textarea.form-control-lg {
   -o-object-fit: cover;
      object-fit: cover;
   filter: brightness(0.9);
+}
+
+.ca-item {
+  height: 520px;
+}
+
+.ca-img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.6);
+}
+
+/* --------- Footer --------- */
+.footer .insta-icon {
+  transition: all 0.3s ease;
+}
+
+.footer .insta-icon:hover {
+  transform: scale(1.05);
+}
+
+.footer .links a:hover {
+  text-decoration: underline;
 }
 
 /* --------- About page --------- */
@@ -10909,20 +10942,18 @@ textarea.form-control-lg {
   margin-top: 50px;
 }
 
-.log-in .form-group,
-.register-form .form-group {
+.form-group {
   margin-left: 30%;
   margin-right: 30%;
 }
 
 /* --------- Contact page --------- */
 .contact {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .contact .card {
   border: none;
-  border-radius: 20px;
 }
 
 .contact input {
@@ -10931,10 +10962,6 @@ textarea.form-control-lg {
 
 .contact .msg {
   height: 150px;
-}
-
-.contact .contact-form .form-group {
-  margin-right: 20%;
 }
 
 /* --------- Submit page --------- */
@@ -10962,27 +10989,4 @@ textarea.form-control-lg {
   left: 37%;
   font-size: 50px;
   z-index: 1000;
-}
-
-/* For the images and items on the photo gallery on landing page */
-.c-item {
-  height: 520px;
-}
-
-.c-img {
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  filter: brightness(0.9);
-}
-
-/* Dropdown on navbar */
-ul .dropdown-menu {
-  position: relative;
-  background-color: #196A59;
-  width: 175px;
-}
-
-li .dropdown-item {
-  color: #FFFAE4;
 }/*# sourceMappingURL=main.min.css.map */
