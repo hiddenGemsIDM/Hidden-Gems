@@ -45,7 +45,6 @@ $info: #1A271D;
     color: sucess;
 }
 
-
 /* --------- Landing page --------- */
 .intro {
     margin-top: 50px;
@@ -149,6 +148,14 @@ $info: #1A271D;
 
 .contact .msg {
     height: 150px;
+}
+
+.contact .contact-link a {
+    text-decoration: none;
+}
+
+.contact .contact-link a:hover {
+    text-decoration: underline;
 }
 
 /* --------- Submit page --------- */

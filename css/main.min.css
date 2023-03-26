@@ -10965,6 +10965,14 @@ textarea.form-control-lg {
   height: 150px;
 }
 
+.contact .contact-link a {
+  text-decoration: none;
+}
+
+.contact .contact-link a:hover {
+  text-decoration: underline;
+}
+
 /* --------- Submit page --------- */
 .submit {
   margin-top: 50px;
