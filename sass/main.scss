@@ -33,6 +33,10 @@ $info: #1A271D;
     color: #FFFAE4;
 }
 
+.navbar .dropdown-menu a:hover {
+    color: #196A59;
+}
+
 .navbar h5 span {
     background-color: white;
 }
@@ -189,7 +193,6 @@ $info: #1A271D;
 a {
     color: $secondary;
 }
-
 
 .carousel-caption {
         color: white;

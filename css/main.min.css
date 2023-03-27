@@ -10846,6 +10846,10 @@ textarea.form-control-lg {
   color: #FFFAE4;
 }
 
+.navbar .dropdown-menu a:hover {
+  color: #196A59;
+}
+
 .navbar h5 span, .navbar .h5 span {
   background-color: white;
 }
@@ -10998,4 +11002,13 @@ textarea.form-control-lg {
   left: 37%;
   font-size: 50px;
   z-index: 1000;
+}
+
+a {
+  color: #FFFAE4;
+}
+
+.carousel-caption {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }/*# sourceMappingURL=main.min.css.map */
